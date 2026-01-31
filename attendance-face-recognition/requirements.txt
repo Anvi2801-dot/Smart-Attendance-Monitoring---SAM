@@ -1,0 +1,7 @@
+# Web Framework
+django<5.2
+django-cors-headers
+
+# Core AI (This will pull compatible TF/Numpy/OpenCV versions)
+deepface
+tf-keras

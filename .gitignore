@@ -1,0 +1,51 @@
+# ========================
+# PYTHON & BACKEND
+# ========================
+# Fixed typos: added leading dots
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+
+# Data files
+*.pkl
+embeddings.pkl
+face_recognition/detected_faces/*
+
+# ========================
+# NODE & FRONTEND
+# ========================
+# Added variants to ensure it catches everything
+node_modules/
+/node_modules
+frontend/node_modules/
+.pnp
+.pnp.js
+
+# Production & Testing
+/build/
+/dist/
+/coverage/
+
+# Environment Files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# SYSTEM & MEDIA
+# ========================
+.DS_Store
+*.mov
+*.avi
+*.mkv
+*.mp4
