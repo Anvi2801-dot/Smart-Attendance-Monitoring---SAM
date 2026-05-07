@@ -1,18 +1,26 @@
 # ========================
 # PYTHON & BACKEND
 # ========================
-# Fixed typos: added leading dots
 .venv/
 venv/
 env/
 ENV/
 __pycache__/
 *.py[cod]
+*.pyc
+*.pyo
 
 # Data files
 *.pkl
 embeddings.pkl
 face_recognition/detected_faces/*
+
+# Database
+db.sqlite3
+
+# Azure emulator files
+__azurite_db_blob__.json
+__azurite_db_blob_extent__.json
 
 # ========================
 # NODE & FRONTEND
